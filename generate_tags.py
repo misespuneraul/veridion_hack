@@ -3,22 +3,25 @@ import openai
 import time
 
 # Initialize OpenAI API client
-openai.api_key = "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"
-  # Replace with your actual API key
+API_KEY = "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"
 
-# Function to generate tags using GPT-4o
+# Initialize OpenAI client
+client = openai.Client(api_key=API_KEY)
+
+# Function to generate tags using GPT-4
 def generate_tags(word):
-    prompt = f"Generate 10 relevant tags for the word '{word}' that are related to its meaning and context."
+    prompt = 'I want to compare words from different categories to see which one could destroy / prevail over / conquer the other. Generate 10 tags for the word ' + word + ' such as "Energy Based", "Plant", "Building", "Fire Based", "Flammable", "Fragile", "Breakable", "Water Based", "Weather Phenomenon", "Abstract Concept", "Destructive", "Hard", "Soft" and other tags related to an objects durability, material, various resistances and destructive force. Do not include tags related to use, functionality or purpose. Only answer with the 10 tags, each on a new line.'
     
-    # Call the ChatCompletion endpoint with GPT-4o model
-    response = openai.ChatCompletion.create(
-        model="gpt-4",  # Specify GPT-4 model
+    # Call the Completion endpoint with GPT-4 model
+    response = client.chat.completions.create(
+        model="gpt-4o",
         messages=[{"role": "user", "content": prompt}]
     )
     
     # Extract the generated tags
-    tags = response['choices'][0]['message']['content'].strip().split("\n")
-    return [tag.strip() for tag in tags if tag.strip()]
+    tags = response.choices[0].message.content.strip("- 0123456789.").split("\n")
+    print(word + " - " + str(tags))
+    return [tag.strip("- 0123456789.") for tag in tags if tag.strip("- 1203456789.")]
 
 # Load the original JSON file
 with open('training_set.json', 'r') as infile:
@@ -38,10 +41,10 @@ for id, entry in data.items():
         new_data[id] = {"text": word, "tags": []}
 
     # Optional: sleep to avoid hitting rate limits for the API
-    time.sleep(1)
+    # time.sleep(1)
 
 # Save the new data with tags in a new JSON file
-with open('output_with_tags.json', 'w') as outfile:
+with open('new_output_with_tags.json', 'w') as outfile:
     json.dump(new_data, outfile, indent=4)
 
 print("Tags generated and saved successfully.")
