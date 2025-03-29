@@ -1,0 +1,388 @@
+{
+  "categories": [
+    "Light Objects",
+    "Combustible Materials",
+    "Fragile Items",
+    "Natural Elements",
+    "Fire-Based",
+    "Physical Tools",
+    "Defensive Tools",
+    "Biological Threats",
+    "Medical Solutions",
+    "Darkness-Based",
+    "Sound-Based",
+    "Abstract Concepts",
+    "Geological Events",
+    "Weather Phenomena",
+    "Mechanical Objects",
+    "Cosmic Entities",
+    "Warfare Elements",
+    "Philosophical Concepts",
+    "Catastrophic Events",
+    "Temporal Forces",
+    "Energy-Based",
+    "Celestial Bodies"
+  ],
+  "words": {
+    "1": {
+      "text": "Feather",
+      "cost": 1,
+      "beats": ["Light Objects", "Fragile Items"],
+      "beaten_by": ["Natural Elements", "Fire-Based"]
+    },
+    "2": {
+      "text": "Coal",
+      "cost": 1,
+      "beats": ["Combustible Materials"],
+      "beaten_by": ["Fire-Based", "Natural Elements"]
+    },
+    "3": {
+      "text": "Pebble",
+      "cost": 1,
+      "beats": ["Fragile Items"],
+      "beaten_by": ["Geological Events", "Physical Tools"]
+    },
+    "4": {
+      "text": "Leaf",
+      "cost": 2,
+      "beats": ["Light Objects"],
+      "beaten_by": ["Fire-Based", "Weather Phenomena"]
+    },
+    "5": {
+      "text": "Paper",
+      "cost": 2,
+      "beats": ["Abstract Concepts"],
+      "beaten_by": ["Fire-Based", "Natural Elements"]
+    },
+    "6": {
+      "text": "Rock",
+      "cost": 2,
+      "beats": ["Fragile Items"],
+      "beaten_by": ["Geological Events", "Physical Tools"]
+    },
+    "7": {
+      "text": "Water",
+      "cost": 3,
+      "beats": ["Fire-Based", "Combustible Materials"],
+      "beaten_by": ["Natural Elements", "Geological Events"]
+    },
+    "8": {
+      "text": "Twig",
+      "cost": 3,
+      "beats": ["Light Objects"],
+      "beaten_by": ["Fire-Based", "Physical Tools"]
+    },
+    "9": {
+      "text": "Sword",
+      "cost": 4,
+      "beats": ["Physical Tools", "Defensive Tools"],
+      "beaten_by": ["Mechanical Objects", "Abstract Concepts"]
+    },
+    "10": {
+      "text": "Shield",
+      "cost": 4,
+      "beats": ["Physical Tools"],
+      "beaten_by": ["Abstract Concepts", "Catastrophic Events"]
+    },
+    "11": {
+      "text": "Gun",
+      "cost": 5,
+      "beats": ["Physical Tools", "Defensive Tools"],
+      "beaten_by": ["Abstract Concepts", "Catastrophic Events"]
+    },
+    "12": {
+      "text": "Flame",
+      "cost": 5,
+      "beats": ["Combustible Materials", "Light Objects"],
+      "beaten_by": ["Natural Elements", "Weather Phenomena"]
+    },
+    "13": {
+      "text": "Rope",
+      "cost": 5,
+      "beats": ["Physical Tools"],
+      "beaten_by": ["Fire-Based", "Mechanical Objects"]
+    },
+    "14": {
+      "text": "Disease",
+      "cost": 6,
+      "beats": ["Biological Threats"],
+      "beaten_by": ["Medical Solutions"]
+    },
+    "15": {
+      "text": "Cure",
+      "cost": 6,
+      "beats": ["Biological Threats"],
+      "beaten_by": ["Abstract Concepts", "Temporal Forces"]
+    },
+    "16": {
+      "text": "Bacteria",
+      "cost": 6,
+      "beats": ["Biological Threats"],
+      "beaten_by": ["Medical Solutions"]
+    },
+    "17": {
+      "text": "Shadow",
+      "cost": 7,
+      "beats": ["Light Objects"],
+      "beaten_by": ["Natural Elements", "Darkness-Based"]
+    },
+    "18": {
+      "text": "Light",
+      "cost": 7,
+      "beats": ["Darkness-Based"],
+      "beaten_by": ["Abstract Concepts", "Cosmic Entities"]
+    },
+    "19": {
+      "text": "Virus",
+      "cost": 7,
+      "beats": ["Biological Threats"],
+      "beaten_by": ["Medical Solutions"]
+    },
+    "20": {
+      "text": "Sound",
+      "cost": 8,
+      "beats": ["Fragile Items"],
+      "beaten_by": ["Abstract Concepts", "Energy-Based"]
+    },
+    "21": {
+      "text": "Time",
+      "cost": 8,
+      "beats": ["Temporal Forces"],
+      "beaten_by": ["Philosophical Concepts", "Cosmic Entities"]
+    },
+    "22": {
+      "text": "Fate",
+      "cost": 8,
+      "beats": ["Abstract Concepts"],
+      "beaten_by": ["Philosophical Concepts", "Temporal Forces"]
+    },
+    "23": {
+      "text": "Earthquake",
+      "cost": 9,
+      "beats": ["Geological Events"],
+      "beaten_by": ["Celestial Bodies", "Abstract Concepts"]
+    },
+    "24": {
+      "text": "Storm",
+      "cost": 9,
+      "beats": ["Weather Phenomena"],
+      "beaten_by": ["Cosmic Entities", "Geological Events"]
+    },
+    "25": {
+      "text": "Vaccine",
+      "cost": 9,
+      "beats": ["Biological Threats"],
+      "beaten_by": ["Temporal Forces", "Abstract Concepts"]
+    },
+    "26": {
+      "text": "Logic",
+      "cost": 10,
+      "beats": ["Abstract Concepts"],
+      "beaten_by": ["Philosophical Concepts", "Temporal Forces"]
+    },
+    "27": {
+      "text": "Gravity",
+      "cost": 10,
+      "beats": ["Celestial Bodies"],
+      "beaten_by": ["Cosmic Entities", "Abstract Concepts"]
+    },
+    "28": {
+      "text": "Robots",
+      "cost": 10,
+      "beats": ["Mechanical Objects"],
+      "beaten_by": ["Energy-Based", "Abstract Concepts"]
+    },
+    "29": {
+      "text": "Stone",
+      "cost": 11,
+      "beats": ["Fragile Items"],
+      "beaten_by": ["Geological Events", "Physical Tools"]
+    },
+    "30": {
+      "text": "Echo",
+      "cost": 11,
+      "beats": ["Sound-Based"],
+      "beaten_by": ["Abstract Concepts", "Energy-Based"]
+    },
+    "31": {
+      "text": "Thunder",
+      "cost": 12,
+      "beats": ["Weather Phenomena"],
+      "beaten_by": ["Cosmic Entities", "Geological Events"]
+    },
+    "32": {
+      "text": "Karma",
+      "cost": 12,
+      "beats": ["Philosophical Concepts"],
+      "beaten_by": ["Abstract Concepts", "Temporal Forces"]
+    },
+    "33": {
+      "text": "Wind",
+      "cost": 13,
+      "beats": ["Weather Phenomena"],
+      "beaten_by": ["Geological Events", "Cosmic Entities"]
+    },
+    "34": {
+      "text": "Ice",
+      "cost": 13,
+      "beats": ["Water-Based"],
+      "beaten_by": ["Fire-Based", "Natural Elements"]
+    },
+    "35": {
+      "text": "Sandstorm",
+      "cost": 13,
+      "beats": ["Weather Phenomena"],
+      "beaten_by": ["Geological Events", "Catastrophic Events"]
+    },
+    "36": {
+      "text": "Laser",
+      "cost": 14,
+      "beats": ["Energy-Based"],
+      "beaten_by": ["Abstract Concepts", "Cosmic Entities"]
+    },
+    "37": {
+      "text": "Magma",
+      "cost": 14,
+      "beats": ["Geological Events"],
+      "beaten_by": ["Natural Elements", "Celestial Bodies"]
+    },
+    "38": {
+      "text": "Peace",
+      "cost": 14,
+      "beats": ["Warfare Elements"],
+      "beaten_by": ["Abstract Concepts", "Catastrophic Events"]
+    },
+    "39": {
+      "text": "Explosion",
+      "cost": 15,
+      "beats": ["Catastrophic Events"],
+      "beaten_by": ["Abstract Concepts", "Cosmic Entities"]
+    },
+    "40": {
+      "text": "War",
+      "cost": 15,
+      "beats": ["Warfare Elements"],
+      "beaten_by": ["Philosophical Concepts", "Catastrophic Events"]
+    },
+    "41": {
+      "text": "Enlightenment",
+      "cost": 15,
+      "beats": ["Philosophical Concepts"],
+      "beaten_by": ["Temporal Forces", "Abstract Concepts"]
+    },
+    "42": {
+      "text": "Nuclear Bomb",
+      "cost": 16,
+      "beats": ["Catastrophic Events"],
+      "beaten_by": ["Cosmic Entities", "Philosophical Concepts"]
+    },
+    "43": {
+      "text": "Volcano",
+      "cost": 16,
+      "beats": ["Geological Events"],
+      "beaten_by": ["Celestial Bodies", "Catastrophic Events"]
+    },
+    "44": {
+      "text": "Whale",
+      "cost": 17,
+      "beats": ["Celestial Bodies"],
+      "beaten_by": ["Catastrophic Events", "Biological Threats"]
+    },
+    "45": {
+      "text": "Earth",
+      "cost": 17,
+      "beats": ["Natural Elements"],
+      "beaten_by": ["Cosmic Entities", "Catastrophic Events"]
+    },
+    "46": {
+      "text": "Moon",
+      "cost": 17,
+      "beats": ["Celestial Bodies"],
+      "beaten_by": ["Cosmic Entities", "Catastrophic Events"]
+    },
+    "47": {
+      "text": "Star",
+      "cost": 18,
+      "beats": ["Celestial Bodies"],
+      "beaten_by": ["Cosmic Entities", "Catastrophic Events"]
+    },
+    "48": {
+      "text": "Tsunami",
+      "cost": 18,
+      "beats": ["Geological Events"],
+      "beaten_by": ["Celestial Bodies", "Catastrophic Events"]
+    },
+    "49": {
+      "text": "Supernova",
+      "cost": 19,
+      "beats": ["Cosmic Entities"],
+      "beaten_by": ["Abstract Concepts", "Philosophical Concepts"]
+    },
+    "50": {
+      "text": "Antimatter",
+      "cost": 19,
+      "beats": ["Energy-Based"],
+      "beaten_by": ["Cosmic Entities", "Abstract Concepts"]
+    },
+    "51": {
+      "text": "Plague",
+      "cost": 20,
+      "beats": ["Biological Threats"],
+      "beaten_by": ["Medical Solutions", "Abstract Concepts"]
+    },
+    "52": {
+      "text": "Rebirth",
+      "cost": 20,
+      "beats": ["Temporal Forces"],
+      "beaten_by": ["Philosophical Concepts", "Abstract Concepts"]
+    },
+    "53": {
+      "text": "Tectonic Shift",
+      "cost": 21,
+      "beats": ["Geological Events"],
+      "beaten_by": ["Catastrophic Events", "Cosmic Entities"]
+    },
+    "54": {
+      "text": "Gamma-Ray Burst",
+      "cost": 22,
+      "beats": ["Cosmic Entities"],
+      "beaten_by": ["Abstract Concepts", "Philosophical Concepts"]
+    },
+    "55": {
+      "text": "Human Spirit",
+      "cost": 23,
+      "beats": ["Philosophical Concepts"],
+      "beaten_by": ["Temporal Forces", "Catastrophic Events"]
+    },
+    "56": {
+      "text": "Apocalyptic Meteor",
+      "cost": 24,
+      "beats": ["Catastrophic Events"],
+      "beaten_by": ["Cosmic Entities", "Philosophical Concepts"]
+    },
+    "57": {
+      "text": "Earth’s Core",
+      "cost": 25,
+      "beats": ["Geological Events"],
+      "beaten_by": ["Cosmic Entities", "Catastrophic Events"]
+    },
+    "58": {
+      "text": "Neutron Star",
+      "cost": 26,
+      "beats": ["Cosmic Entities"],
+      "beaten_by": ["Abstract Concepts", "Philosophical Concepts"]
+    },
+    "59": {
+      "text": "Supermassive Black Hole",
+      "cost": 35,
+      "beats": ["Cosmic Entities"],
+      "beaten_by": ["Philosophical Concepts", "Abstract Concepts"]
+    },
+    "60": {
+      "text": "Entropy",
+      "cost": 45,
+      "beats": ["Temporal Forces"],
+      "beaten_by": ["Philosophical Concepts", "Abstract Concepts"]
+    }
+  }
+}
