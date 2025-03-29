@@ -71,6 +71,6 @@ def play_game(player_id):
             print(status.json())
 
         choosen_word = what_beats(sys_word)
-        data = {"player_id": player_id, "word_id": 5, "round_id": round_id}
+        data = {"player_id": player_id, "word_id": "12", "round_id": round_id}
         response = requests.post(post_url, json=data)
         print(response.json())
