@@ -3,7 +3,7 @@ import random
 import time
 import openai
 
-API_KEY = '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'
+API_KEY = ''
 
 # Initialize OpenAI client
 client = openai.Client(api_key=API_KEY)

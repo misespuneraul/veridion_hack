@@ -3,8 +3,7 @@ import openai
 import time
 
 # Initialize OpenAI API client
-API_KEY = "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"
-
+API_KEY = ''
 # Initialize OpenAI client
 client = openai.Client(api_key=API_KEY)
 

@@ -3,7 +3,7 @@ from time import sleep
 import random
 import openai
 
-API_KEY = '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'
+API_KEY = ''
 
 
 
